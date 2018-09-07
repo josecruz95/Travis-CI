@@ -6,5 +6,6 @@ install:
   - pip install -r requirements.txt
 script:
   - python tec.py
+  - pytest tec.py
 after_sucess:
    - travis-after-tests-success
